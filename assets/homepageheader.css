@@ -3,5 +3,22 @@
     height:auto;
     display:flex;
     min-height:500px;
-    background:red;
+    background:#122932;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
+    grid-template-areas:". .";
+}
+
+.homeheaderitem{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeheaderitem img{
+    width:50%;
+    height:auto;
 }
