@@ -396,7 +396,7 @@ h5,
 
 @media only screen and (min-width: 750px) {
   .hxl {
-    font-size: calc(var(--font-heading-scale) * 6.2rem);
+    font-size: calc(var(--font-heading-scale) * 8.2rem);
   }
 }
 
@@ -2214,6 +2214,7 @@ input[type='checkbox'] {
   display: block;
   position: relative;
   background-color: rgb(var(--color-background));
+  z-index: 100;
 }
 
 .header-wrapper--border-bottom {
