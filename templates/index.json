@@ -48,7 +48,7 @@
       }
     },
     "homepageheader": {
-      "type": "homepageheader",
+      "type": "homepageheader"
     },
     "rich_text": {
       "type": "rich-text",
