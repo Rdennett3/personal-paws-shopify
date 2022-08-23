@@ -47,6 +47,9 @@
         "show_text_below": false
       }
     },
+    "homepageheader": {
+      "type": "homepageheader",
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
