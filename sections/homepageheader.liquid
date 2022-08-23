@@ -1,0 +1,16 @@
+{{ 'homepageheader.css' | asset_url | stylesheet }}
+
+{%- if section.settings.enable_quick_add -%}
+    <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+    <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  {%- endif -%}
+
+  <div class="homepageheader">
+    <div class="homeheaderitem">
+        <h1>personal paws</h1>
+    </div>
+    <div class="homeheaderitem">
+        
+    </div>  
+  </div>
