@@ -1,0 +1,7 @@
+.homeheaderouter{
+    width:100%;
+    height:auto;
+    display:flex;
+    min-height:500px;
+    background:red;
+}
