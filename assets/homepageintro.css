@@ -5,8 +5,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding:5% 0;
 }
 
-.homepageintro h1{
+.introcontainer{
+    width:80%;
+    height:auto;
+    min-height:50vh;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.introcontainer h1{
     color:#122932;
+    text-align: center;
+}
+
+.introcontainer p{
+    color:#122932;
+    text-align: center;
 }
