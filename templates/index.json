@@ -97,7 +97,7 @@
   "order": [
     "homepageheader",
     "homepageintro",
-    "featured-collection",
+    "featured_collection",
     "multicolumn"
   ]
 }

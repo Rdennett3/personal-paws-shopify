@@ -9,13 +9,44 @@
 
   <section class="homepageintro">
     <div class="introcontainer">
-        <h1>Serving the Capital Region in Upstate NY, with locations in Rotterdam, and Scotia</h1>
-        <p>
+        <h1 class="introitem">Serving the Capital Region in Upstate NY, with locations in Rotterdam, and Scotia</h1>
+        <p class="introitem">
             Personal Paws LLC offers unique, customized training programs and support to our pack and their families. Our professionally trained team is here to guide and support you toward long-term success, specializing in behavioral modifications with dogs of all ages. We believe healthy relationships, clear communication and motivational methods are essentials for getting dogs eager to learn and setting them up for lifelong success. 
         </p>
     </div>
     
   </section>
+
+  <script>
+    ScrollTrigger.matchMedia({
+      "(min-width:900px)":function() {
+        let tl = gsap.timeline({
+          scrollTrigger:{
+            trigger:".homepageintro",
+            scrub:1,
+            // markers:true,
+            start:"top 70%",
+            end:"bottom 30%",
+          }
+        });
+        tl.from(".introitem", {y:"50%", autoAlpha:0, scale:.95, stagger:.15,})
+        .to(".introitem", {y:0, stagger:.15});
+      },
+      "(max-width:899px)":function(){
+        let tl = gsap.timeline({
+          scrollTrigger:{
+            trigger:".homepageintro",
+            scrub:1,
+            // markers:true,
+            start:"top 90%",
+            end:"bottom 60%",
+          }
+        });
+        tl.from(".introitem", {autoAlpha:0, y:"50%"})
+        .to(".introitem", {autoAlpha:1, y:"-10%"});
+      }
+    })
+  </script>
 
   {%schema%}
   {

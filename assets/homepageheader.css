@@ -16,7 +16,7 @@
         grid-template-areas: ".";
     }
     .homeheaderitem:nth-of-type(2) img{
-        transform:translateY(-5%);
+        transform:translateY(10%)!important;
     }
 }
 
@@ -37,9 +37,12 @@
     height:auto;
     transform:translateY(25%);
     z-index: 2;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
 
 .homeheaderitem h1{
     font-weight:700;
     color:#fff;
+    visibility: hidden;
 }

@@ -16,6 +16,12 @@
     </div>
   </section>
 
+  <script>
+    gsap.from('.homeheaderitem h1', {immediateRender:false, y:"100%", autoAlpha:0, duration:1, delay:1});
+
+    gsap.to(".homeheaderitem img", {delay:1, duration:1, clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)'});
+  </script>
+
   {%schema%}
   {
     "name": "Homepage Header",
