@@ -12,7 +12,7 @@
         <h1 class="hxl"> {{ section.settings.homepage_banner_text }} </h1>
     </div>
     <div class="homeheaderitem">
-        <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/hpimg-small.png?v=1661306139" loading="lazy" width="auto" height="auto">
+        {{ section.settings.home_header_image }}
     </div>
   </section>
 
@@ -32,6 +32,11 @@
             "type": "richtext",
             "label": "customize text here",
             "default": "<p> School of Personal Paws</p>"
+      },
+      {
+        "id": "home_header_image",
+        "type": "image_picker",
+        "label": "add image to homepage right side"
       }
     ]
   }
