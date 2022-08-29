@@ -465,6 +465,11 @@ h5,
   }
 }
 
+.larger{
+  font-size: calc(var(--font-heading-scale) * 5.5em);
+  line-height: 1em;
+}
+
 h6,
 .h6 {
   color: rgba(var(--color-foreground), 0.75);

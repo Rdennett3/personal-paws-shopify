@@ -41,7 +41,8 @@
       "type": "homepageabout",
       "settings": {
         "custom_text_body": "Meet<br>The<br>Team",
-        "kait_description_box": "<p>Kait has 7 years of experience in the canine industry; from volunteering<br\/> to helping in local shelters, kennel work, reading canine body language<br\/> to managing facilities and employees to handling canine behaviors, <br\/>basic obedience, competitive obedience, and extensive pet care. All of <br\/>this has led her to where she is today!<br\/>    <\/p>"
+        "kait_description_box": "<p>Kait has 7 years of experience in the canine industry; from volunteering<br\/> to helping in local shelters, kennel work, reading canine body language<br\/> to managing facilities and employees to handling canine behaviors, <br\/>basic obedience, competitive obedience, and extensive pet care. All of <br\/>this has led her to where she is today!<br\/>    <\/p>",
+        "team_description_box": "<p>The Personal Paws Faculty members are a group of highly trusted and <br\/>trained K9 Handlers. Each handler goes through a series of shadowing, <br\/>mentoring and is required to finish our educational programs provided <br\/>before earning a position in our pack.<br\/>    <\/p>"
       }
     },
     "multicolumn": {
