@@ -23,6 +23,15 @@
     min-height:415px;
 }
 
+.aboutinner{
+    width:80%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border:1px solid #F05D5F;
+}
+
 .aboutitem p{
     color:#fff;
     font-size:1.25em;
