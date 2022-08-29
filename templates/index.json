@@ -1,12 +1,10 @@
 {
   "sections": {
-    
     "homepageheader": {
       "type": "homepageheader",
       "settings": {
       }
     },
-
     "homepageintro": {
       "type": "homepageintro",
       "settings": {
@@ -39,13 +37,6 @@
         "padding_bottom": 36
       }
     },
-
-    "homepageasbout": {
-      "type": "homepageabout",
-      "settings": {
-      }
-    },
-   
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -104,7 +95,6 @@
     "homepageheader",
     "homepageintro",
     "featured_collection",
-    "homepageabout",
     "multicolumn"
   ]
 }
