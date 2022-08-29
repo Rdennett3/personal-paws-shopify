@@ -1,0 +1,7 @@
+.testimonialcontainer{
+    width:100%;
+    height:auto;
+    display: flex;
+    min-height:500px;
+    background: #f05d5f;
+}

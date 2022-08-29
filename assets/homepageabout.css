@@ -29,7 +29,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border:1px solid #F05D5F;
+}
+
+.aboutinner:nth-of-type(4),
+.aboutinner:nth-of-type(1){
+    justify-content: center;
 }
 
 .aboutitem p{

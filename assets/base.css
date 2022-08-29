@@ -2131,6 +2131,18 @@ input[type='checkbox'] {
   cursor: initial;
 }
 
+.fancyBtn{
+  padding: 1% 5%;
+  background: #fff;
+  color: #252528;
+  border: 3px solid #122932;
+  box-shadow: 10px 10px #f05d5f;
+  text-decoration: none;
+  font-size: 2.5em;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+}
+
 /* component-cart-count-bubble */
 .cart-count-bubble:empty {
   display: none;

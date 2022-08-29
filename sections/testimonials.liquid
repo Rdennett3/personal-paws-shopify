@@ -1,4 +1,4 @@
-{{ 'homepageabout.css' | asset_url | stylesheet_tag }}
+{{ 'homepagetestimonial.css' | asset_url | stylesheet_tag }}
 {{ 'base.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.enable_quick_add -%}
@@ -8,8 +8,10 @@
   {%- endif -%}
 
   <div class="testimonialcontainer">
-    <div class="testimonialheader">
-      <h1> {{ section.settings.testimonial_header }} </h1>
+    <div class="testimonialwrapper">
+        <div class="testimonialheader">
+            <h1> {{ section.settings.testimonial_header }} </h1>
+        </div>
     </div>
   </div>
 
@@ -46,7 +48,7 @@
 
   {%schema%}
   {
-    "name": "Homepage About",
+    "name": "Homepage Testimonials",
     "tag": "section",
     "settings": [
         {
