@@ -1,0 +1,36 @@
+.aboutcontainer{
+    width:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:auto;
+    grid-template-areas:"ai1 ai2" "ai3 ai4";
+    gap:20px;
+}
+
+.aboutitem{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    min-height:100px;
+    border:2px solid red;
+}
+
+.aboutitem:nth-of-type(1){
+    grid-area:ai1;
+}
+
+.aboutitem:nth-of-type(2){
+    grid-area:ai2;
+}
+
+.aboutitem:nth-of-type(3){
+    grid-area:ai3;
+}
+
+.aboutitem:nth-of-type(4){
+    grid-area:ai4;
+}

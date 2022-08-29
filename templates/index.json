@@ -39,6 +39,12 @@
         "padding_bottom": 36
       }
     },
+
+    "homepageasbout": {
+      "type": "homepageabout",
+      "settings": {
+      }
+    },
    
     "multicolumn": {
       "type": "multicolumn",
@@ -98,6 +104,7 @@
     "homepageheader",
     "homepageintro",
     "featured_collection",
+    "homepageabout",
     "multicolumn"
   ]
 }
