@@ -9,13 +9,13 @@
 
   <div class="aboutcontainer">
     <div class="aboutitem">
-        <h1> {{section.settings.custom_text_body}} </h1>
+        <h1 class="hxl"> {{section.settings.custom_text_body}} </h1>
     </div>
     <div class="aboutitem">
         <p> {{section.settings.kait_description_box}} </p>
     </div>
     <div class="aboutitem">
-    
+        <p> {{section.setting.team_description_box}} </p>
     </div>
     <div class="aboutitem">
     
@@ -70,6 +70,12 @@
             "type": "richtext",
             "label": "customize text here",
             "default": "<p> add text for kait description</p>"
+        },
+        {
+            "id": "team_description_box",
+            "type": "richtext",
+            "label": "customize text here",
+            "default": "<p> add text for team description</p>"
         }
     ]
   }
