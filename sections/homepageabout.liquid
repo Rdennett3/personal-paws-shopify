@@ -9,7 +9,9 @@
 
   <div class="aboutcontainer">
     <div class="aboutitem">
-        <h1>test</h1>
+        {% if page_description -%}
+            <meta name="description" content="{{ page_description | escape }}">
+          {%- endif %}
     </div>
     <div class="aboutitem">
     
