@@ -47,8 +47,8 @@
       }
     },
 
-    "homepagetestimonials": {
-      "type": "homepagetestimonials",
+    "testimonials": {
+      "type": "testimonials",
       "settings": {
       }
     },
@@ -111,7 +111,7 @@
     "homepageintro",
     "featured_collection",
     "homepageabout",
-    "homepage testimonials",
+    "testimonials",
     "multicolumn"
   ]
 }
