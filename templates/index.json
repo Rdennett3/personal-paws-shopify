@@ -3,7 +3,8 @@
     "homepageheader": {
       "type": "homepageheader",
       "settings": {
-        "homepage_banner_text": "<p>The School of Personal Paws<\/p>"
+        "homepage_banner_text": "<p>The School of Personal Paws<\/p>",
+        "home_header_image": "shopify:\/\/shop_images\/hpimg-small.png"
       }
     },
     "homepageintro": {
