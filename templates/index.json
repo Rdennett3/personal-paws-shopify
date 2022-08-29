@@ -49,6 +49,7 @@
     "testimonials": {
       "type": "testimonials",
       "settings": {
+        "testimonial_header": "what others are saying"
       }
     },
     "multicolumn": {
