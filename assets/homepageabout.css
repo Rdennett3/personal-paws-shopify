@@ -5,7 +5,6 @@
     grid-template-columns: repeat(2,1fr);
     grid-template-rows:auto;
     grid-template-areas:"ai1 ai2" "ai3 ai4";
-    gap:5px;
 }
 @media screen and (max-width:900px){
     .aboutcontainer{
