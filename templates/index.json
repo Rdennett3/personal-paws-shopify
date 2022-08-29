@@ -40,6 +40,8 @@
     "homepageabout": {
       "type": "homepageabout",
       "settings": {
+        "custom_text_body": "text here",
+        "kait_description_box": "<p>Kait has 7 years of experience in the canine industry; from volunteering<br\/> to helping in local shelters, kennel work, reading canine body language<br\/> to managing facilities and employees to handling canine behaviors, <br\/>basic obedience, competitive obedience, and extensive pet care. All of <br\/>this has led her to where she is today!<br\/>    <\/p>"
       }
     },
     "multicolumn": {
