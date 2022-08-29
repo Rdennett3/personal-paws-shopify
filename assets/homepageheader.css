@@ -28,8 +28,14 @@
     justify-content: center;
 }
 
+
+
 .homeheaderitem:nth-of-type(1){
     padding-left:10%;
+}
+
+.homeheaderitem:nth-of-type(1) h1{
+    font-size: 4.5em;
 }
 
 .homeheaderitem:nth-of-type(2) img{

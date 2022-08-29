@@ -9,7 +9,7 @@
 @media screen and (max-width:900px){
     .aboutcontainer{
         grid-template-columns: 1fr;
-        grid-template-areas: "ai1";
+        grid-template-areas: "ai1" "ai2" "ai3" "ai4";
     }
 }
 
@@ -29,12 +29,17 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border:1px solid #F05D5F;
+}
+
+.aboutinner:nth-of-type(1),
+.aboutinner:nth-of-type(4){
+    justify-content: center;
 }
 
 .aboutitem p{
     color:#fff;
     font-size:1.25em;
+    line-height:1.25em;
 }
 
 .aboutitem h1{
@@ -57,4 +62,10 @@
 
 .aboutitem:nth-of-type(4){
     grid-area:ai4;
+}
+
+@media screen and (max-width:900px){
+    .aboutitem:nth-of-type(3){
+        background:#F05D5F;
+    }
 }
