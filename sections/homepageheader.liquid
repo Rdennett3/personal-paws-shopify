@@ -9,7 +9,7 @@
 
   <section class="homeheaderouter">
     <div class="homeheaderitem">
-        <h1 class="hxl">The School of Personal Paws</h1>
+        <h1 class="hxl"> {{ section.settings.homepage_headline_text }} </h1>
     </div>
     <div class="homeheaderitem">
         <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/hpimg-small.png?v=1661306139" loading="lazy" width="auto" height="auto">
@@ -25,6 +25,14 @@
   {%schema%}
   {
     "name": "Homepage Header",
-    "tag": "section"
+    "tag": "section",
+    "settings": [
+      {
+        "id": "custom_text_body",
+        "type": "text",
+        "label": "customize text here",
+        "default": "The School of Personal Paws"
+      }
+    ]
   }
   {% endschema %}
