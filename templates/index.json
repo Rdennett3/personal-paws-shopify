@@ -46,6 +46,12 @@
         "team_description_box": "<p>The Personal Paws Faculty members are a group of highly trusted and trained canine handlers. Each handler goes through a series of shadowing, mentoring, and is required to finish our educational programs provided before earning a position in our pack.<\/p>"
       }
     },
+
+    "homepagetestimonials": {
+      "type": "homepagetestimonials",
+      "settings": {
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -105,7 +111,7 @@
     "homepageintro",
     "featured_collection",
     "homepageabout",
-    "homepagetestimonials",
+    "homepage testimonials",
     "multicolumn"
   ]
 }
