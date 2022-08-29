@@ -23,10 +23,6 @@
     min-height:200px;
 }
 
-.aboutitem p{
-    color:#fff;
-}
-
 .aboutitem:nth-of-type(1){
     grid-area:ai1;
 }
@@ -43,16 +39,4 @@
 
 .aboutitem:nth-of-type(4){
     grid-area:ai4;
-}
-
-.fancyBtn{
-    padding: 1% 5%;
-    background: #fff;
-    color: #252528;
-    border: 3px solid #122932;
-    box-shadow: 10px 10px #f05d5f;
-    text-decoration: none;
-    font-size: 2.5em;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 800;
 }
