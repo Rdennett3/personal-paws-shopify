@@ -12,7 +12,7 @@
         <div class="testimonialheader">
             <h1> {{ section.settings.testimonial_header }} </h1>
         </div>
-        <div class="testimonials">
+        <div class="swiper">
             <div class="swiper-wrapper"> 
                 <div class="swiper-slide">
                     <p> {{ section.settings.testimonialone }} </p>
@@ -30,6 +30,7 @@
                     <p> {{ section.settings.testimonialfive }} </p>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
   </div>
@@ -37,8 +38,16 @@
   <script>
     const swiper = new Swiper('.swiper', {
         // Optional parameters
-        direction: 'vertical',
+        direction: 'horizontal',
         loop: true,
+
+        pagination: {
+            el: '.swiper-pagination',
+          },
+
+        autoplay: {
+            delay: 1000,
+          },
       });
       
   </script>
