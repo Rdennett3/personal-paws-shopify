@@ -32,5 +32,6 @@
 }
 
 .swiper-slide{
-    background:white;
+    border:2px solid blue!important;
+    min-height:200px;
 }
