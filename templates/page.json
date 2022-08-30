@@ -6,71 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "16618779676dbe0667": {
-      "type": "collapsible-content",
-      "blocks": {
-        "1661877967a41ec00d-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Full Time Student Program",
-            "icon": "none",
-            "row_content": "<p><br\/>    Drop your pup off at school! This new service gives us the <br\/>opportunity to give our community a safe, clean & trustworthy place <br\/>to send their dogs for a full day of structured socialization, obedience<br\/> & enrichment. Our new facility offers many new amenities such as <br\/>multiple socialization areas, all levels of distraction for proofing <br\/>your pups skills, a stream to adventure through, 4 acres of trails to hike & much more!<br\/>  <\/p><p>Each pup will relax in their own kennel suite to enjoy any down time, snack\/lunch time, & water breaks.<br\/> <\/p><p>This service requires owners to pick up & drop off their pups at<br\/> our facility. There is a two day minimum. There is a cancellation fee <br\/>for less than 24 hours notice.<br\/>  <\/p><p>Drop Off Times:7 - 9amPick Up Times:4 - 6pmOne day:$4810 Day Package:$480<\/p><p>*** If you have 2 pups & they can share a kennel, it’s only $20 per second dog!<\/p>",
-            "page": ""
-          }
-        },
-        "1661877967a41ec00d-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "1661877967a41ec00d-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "1661877967a41ec00d-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "1661877967a41ec00d-0",
-        "1661877967a41ec00d-1",
-        "1661877967a41ec00d-2",
-        "1661877967a41ec00d-3"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Daytime Services",
-        "heading_size": "h0",
-        "heading_alignment": "left",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "accent-1",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "main",
-    "16618779676dbe0667"
+    "main"
   ]
 }
