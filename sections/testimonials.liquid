@@ -35,10 +35,10 @@
     </div>
   </div>
 
-  <script>
+  {% javascript %}
     const swiper = new Swiper('.swiper', {
         // Optional parameters
-        direction: 'horizontal',
+        direction: 'vertical',
         loop: true,
 
         pagination: {
@@ -50,7 +50,7 @@
           },
       });
       
-  </script>
+  {% endjavascript %}
 
   {% comment %} <script>
     ScrollTrigger.matchMedia({
