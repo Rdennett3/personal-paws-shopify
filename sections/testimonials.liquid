@@ -12,7 +12,25 @@
         <div class="testimonialheader">
             <h1> {{ section.settings.testimonial_header }} </h1>
         </div>
-
+        <div class="testimonials">
+            <div class="swiper-wrapper"> 
+                <div class="swiper-slide">
+                    <p> {{ section.settings.testimonialone }} </p>
+                </div>
+                <div class="swiper-slide">
+                    <p> {{ section.settings.testimonialtwo }} </p>
+                </div>
+                <div class="swiper-slide">
+                    <p> {{ section.settings.testimonialthree }} </p>
+                </div>
+                <div class="swiper-slide">
+                    <p> {{ section.settings.testimonialfour }} </p>
+                </div>
+                <div class="swiper-slide">
+                    <p> {{ section.settings.testimonialfive }} </p>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 
@@ -49,7 +67,7 @@
 
   {%schema%}
   {
-    "name": "Testimonials",
+    "name": "testimonials",
     "tag": "section",
     "settings": [
         {
@@ -57,7 +75,37 @@
             "type": "text",
             "label": "customize text here",
             "default": "text here"
-        }
+        },
+        {
+          "id": "testimonialone",
+          "type": "textarea",
+          "label": "first testimonial goes here",
+          "default": "add text for testimonial one here"  
+        },
+        {
+            "id": "testimonialtwo",
+            "type": "textarea",
+            "label": "second testimonial goes here",
+            "default": "add text for testimonial two here"  
+          },
+          {
+            "id": "testimonialthree",
+            "type": "textarea",
+            "label": "third testimonial goes here",
+            "default": "add text for testimonial three here"  
+          },
+          {
+            "id": "testimonialfour",
+            "type": "textarea",
+            "label": "fourth testimonial goes here",
+            "default": "add text for testimonial four here"  
+          },
+          {
+            "id": "testimonialfive",
+            "type": "textarea",
+            "label": "fifth testimonial goes here",
+            "default": "add text for testimonial five here"  
+          }
     ]
   }
   {% endschema %}
