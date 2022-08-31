@@ -1,3 +1,6 @@
+
+{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'swiper.min.js' | asset_url | script_tag }}
 {{ 'testimonials.css' | asset_url | stylesheet_tag }}
 {{ 'base.css' | asset_url | stylesheet_tag }}
 
@@ -15,115 +18,82 @@
         <div class="swiper">
             <div class="swiper-wrapper"> 
                 <div class="swiper-slide">
-                    <p> {{ section.settings.testimonial_one }} </p>
+                    {{ section.settings.testimonial_one }}
                 </div>
                 <div class="swiper-slide">
-                    <p> {{ section.settings.testimonial_two }} </p>
+                    {{ section.settings.testimonial_two }}
                 </div>
                 <div class="swiper-slide">
-                    <p> {{ section.settings.testimonial_three }} </p>
+                    {{ section.settings.testimonial_three }}
                 </div>
                 <div class="swiper-slide">
-                    <p> {{ section.settings.testimonial_four }} </p>
+                    {{ section.settings.testimonial_four }}
                 </div>
                 <div class="swiper-slide">
-                    <p> {{ section.settings.testimonial_five }} </p>
+                    {{ section.settings.testimonial_five }}
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
     </div>
   </div>
 
-  <script>
-    const swiper = new Swiper('.swiper', {
-        // Optional parameters
-        direction: 'horizontal',
-        loop: true,
+{% javascript %}
+  const swiper = new Swiper('.swiper', {
+    
+    loop: true,
+    speed: 1000,
+    centeredSlides: true,
+    slidesPerView: 1,
+    spaceBetween: 10,
+    
+    autoplay: {
+      delay: 5000,
+    },
+  });
+  
+{% endjavascript %}
 
-        pagination: {
-            el: '.swiper-pagination',
-          },
-
-        autoplay: {
-            delay: 1000,
-          },
-      });
-      
-  </script>
-
-  {% comment %} <script>
-    ScrollTrigger.matchMedia({
-      "(min-width:900px)":function() {
-        let tl = gsap.timeline({
-          scrollTrigger:{
-            trigger:".homepageintro",
-            scrub:1,
-            // markers:true,
-            start:"top 70%",
-            end:"bottom 30%",
-          }
-        });
-        tl.from(".introitem", {y:"50%", autoAlpha:0, scale:.95, stagger:.15,})
-        .to(".introitem", {y:0, stagger:.15});
-      },
-      "(max-width:899px)":function(){
-        let tl = gsap.timeline({
-          scrollTrigger:{
-            trigger:".homepageintro",
-            scrub:1,
-            // markers:true,
-            start:"top 90%",
-            end:"bottom 60%",
-          }
-        });
-        tl.from(".introitem", {autoAlpha:0, y:"50%"})
-        .to(".introitem", {autoAlpha:1, y:"-10%"});
-      }
-    })
-  </script> {% endcomment %}
-
-  {%schema%}
-  {
-    "name": "testimonials",
-    "tag": "section",
-    "settings": [
-        {
-            "id": "testimonial_header",
-            "type": "text",
-            "label": "customize text here",
-            "default": "text here"
-        },
-        {
-          "id": "testimonial_one",
-          "type": "textarea",
-          "label": "first testimonial goes here",
-          "default": "add text for testimonial one here"  
-        },
-        {
-            "id": "testimonial_two",
-            "type": "textarea",
-            "label": "second testimonial goes here",
-            "default": "add text for testimonial two here"  
+  {% schema %}
+    {
+      "name": "testimonials",
+      "tag": "section",
+      "settings": [
+          {
+              "id": "testimonial_header",
+              "type": "text",
+              "label": "customize text here",
+              "default": "text here"
           },
           {
-            "id": "testimonial_three",
+            "id": "testimonial_one",
             "type": "textarea",
-            "label": "third testimonial goes here",
-            "default": "add text for testimonial three here"  
+            "label": "first testimonial goes here",
+            "default": "add text for testimonial one here"  
           },
           {
-            "id": "testimonial_four",
-            "type": "textarea",
-            "label": "fourth testimonial goes here",
-            "default": "add text for testimonial four here"  
-          },
-          {
-            "id": "testimonial_five",
-            "type": "textarea",
-            "label": "fifth testimonial goes here",
-            "default": "add text for testimonial five here"  
-          }
-    ]
-  }
+              "id": "testimonial_two",
+              "type": "textarea",
+              "label": "second testimonial goes here",
+              "default": "add text for testimonial two here"  
+            },
+            {
+              "id": "testimonial_three",
+              "type": "textarea",
+              "label": "third testimonial goes here",
+              "default": "add text for testimonial three here"  
+            },
+            {
+              "id": "testimonial_four",
+              "type": "textarea",
+              "label": "fourth testimonial goes here",
+              "default": "add text for testimonial four here"  
+            },
+            {
+              "id": "testimonial_five",
+              "type": "textarea",
+              "label": "fifth testimonial goes here",
+              "default": "add text for testimonial five here"  
+            }
+      ]
+    }
   {% endschema %}

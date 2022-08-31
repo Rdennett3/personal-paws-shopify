@@ -1,37 +1,50 @@
 .testimonialcontainer{
     width:100%;
     height:auto;
-    display: flex;
+    color:#fff;
+    display:flex;
     align-items: center;
     justify-content: center;
-    background: #f05d5f;
-    color:#fff;
     padding:5% 0;
+    background: #f05d5f;
 }
 
 .testimonialwrapper{
-    border:1px solid white;
     width:80%;
     height:auto;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:".";
+    border:1px solid black;
 }
 
 .testimonialwrapper h1{
-    color:#fff;
+    color:#000;
     text-transform:capitalize;
+    align-self: center;
 }
 
 .testimonialwrapper p{
     font-size: 1.25em;
     line-height:1.25em;
-    color:#fff;
+    color:#000;
+}
+
+.swiper-wrapper{
+    width:80%;
+    align-self: center;
 }
 
 .swiper-slide{
-    border:2px solid blue!important;
+    min-width:0;
+    width:80%!important;
     min-height:200px;
+    border:2px solid blue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
 }
+
+/* background: #f05d5f; */
