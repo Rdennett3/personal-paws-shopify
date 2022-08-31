@@ -1,0 +1,24 @@
+{{ 'fullwidthcollection.css' | asset_url | stylesheet_tag }}
+{{ 'base.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.enable_quick_add -%}
+    <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+    <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  {%- endif -%}
+
+  
+  <section class="fullwidthcontainer">
+    <div class="fullwidthitem"></div>
+    <div class="fullwidthitem"></div>
+    <div class="fullwidthitem"></div>
+    <div class="fullwidthitem"></div>
+  </section>
+  
+
+  {% schema %}
+  {
+    "name": "Full Width Collection",
+    "tag": "section"
+  }
+  {% endschema %}
