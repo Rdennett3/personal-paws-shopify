@@ -1,0 +1,17 @@
+.fullwidthcollouter{
+    width:100%;
+    height:auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:auto;
+    grid-template-areas: ". . . .";
+}
+
+.fullwidthitem{
+    width:100%;
+    height:auto;
+    display:flex;
+    min-height: 400px;
+    background:green;
+    border:2px solid red;
+}
