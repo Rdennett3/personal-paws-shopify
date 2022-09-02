@@ -46,9 +46,15 @@
         "team_description_box": "<p>The Personal Paws Faculty members are a group of highly trusted and trained canine handlers. Each handler goes through a series of shadowing, mentoring, and is required to finish our educational programs provided before earning a position in our pack.<\/p>"
       }
     },
-    "fullwidthcollection": {
-      "type": "fullwidthcollection",
+    "testimonials": {
+      "type": "testimonials",
       "settings": {
+        "testimonial_header": "what others are saying",
+        "testimonial_one": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "testimonial_two": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "testimonial_three": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "testimonial_four": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "testimonial_five": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
       }
     },
     "multicolumn": {
@@ -108,8 +114,9 @@
   "order": [
     "homepageheader",
     "homepageintro",
+    "featured_collection",
     "homepageabout",
-    "fullwidthcollection",
+    "testimonials",
     "multicolumn"
   ]
 }

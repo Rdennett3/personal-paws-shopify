@@ -9,10 +9,18 @@
 
   
   <section class="fullwidthcontainer">
-    <div class="fullwidthitem"></div>
-    <div class="fullwidthitem"></div>
-    <div class="fullwidthitem"></div>
-    <div class="fullwidthitem"></div>
+    <div class="fullwidthitem">
+      {{ dog-treats.featured_image | img_url: '600x600' | img_tag: product.featured_image.alt }}
+    </div>
+    <div class="fullwidthitem">
+      {{ dog-treats.featured_image | img_url: '600x600' | img_tag: product.featured_image.alt }}
+    </div>
+    <div class="fullwidthitem">
+      {{ dog-treats.featured_image | img_url: '600x600' | img_tag: product.featured_image.alt }}
+    </div>
+    <div class="fullwidthitem">
+      {{ dog-treats.featured_image | img_url: '600x600' | img_tag: product.featured_image.alt }}
+    </div>
   </section>
   
 
