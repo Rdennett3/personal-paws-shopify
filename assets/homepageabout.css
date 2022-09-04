@@ -11,6 +11,9 @@
         grid-template-columns: 1fr;
         grid-template-areas: "ai1" "ai2" "ai3" "ai4";
     }
+    .aboutinner h1{
+        text-align: center;
+    }
 }
 
 .aboutitem{
