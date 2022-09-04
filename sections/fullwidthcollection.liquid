@@ -9,22 +9,67 @@
 
   
   <section class="fullwidthcontainer">
+    <div class="fullwidthtitle">
+      <h1>Shop By Category</h1>
+    </div>
     <div class="fullwidthwrapper">
       <div class="fullwidthitem">
-        <h1>test</h1>
-      </div>
-      <div class="fullwidthitem">      
-        <h1>test</h1>
-      </div>
-      <div class="fullwidthitem">        
-        <h1>test</h1>
+        <a href="">
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/treats.png?v=1662307513" alt="">
+          <h1>Treats</h1>
+        </a>
       </div>
       <div class="fullwidthitem">
-        <h1>test</h1>
+        <a href="#">
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/collar.png?v=1662306808" alt="">      
+          <h1>Collars</h1>
+        </a>
+      </div>
+      <div class="fullwidthitem">
+        <a href="">
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/bandana.png?v=1662307997" alt="">
+          <h1>Accessories</h1>
+        </a>
+      </div>
+      <div class="fullwidthitem">
+        <a href="">
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/food.png?v=1662308330" alt="">
+          <h1>Food</h1>
+        </a>
       </div>
     </div>
   </section>
   
+  <script>
+    ScrollTrigger.matchMedia({
+      "(min-width:900px)":function() {
+        let tl = gsap.timeline({
+          scrollTrigger:{
+            trigger:".fullwidthcontainer",
+            scrub:1,
+            markers:true,
+            start:"top 70%",
+            end:"bottom 30%",
+          }
+        });
+        tl.from(".fullwidthitem", {x:"50%", autoAlpha:0, scale:.95, stagger:.15,})
+        .to(".fullwidthitem", {x:0, stagger:.15});
+      },
+      "(max-width:899px)":function(){
+        let tl = gsap.timeline({
+          scrollTrigger:{
+            trigger:".fullwidthcontainer",
+            scrub:1,
+            // markers:true,
+            start:"top 90%",
+            end:"bottom 60%",
+          }
+        });
+        tl.from(".fullwidthitem", {autoAlpha:0, y:"50%"})
+        .to(".fullwidthitem", {autoAlpha:1, y:"-10%"});
+      }
+    })
+  </script>
 
   {% schema %}
   {

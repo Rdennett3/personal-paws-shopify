@@ -2,25 +2,25 @@
     width:100%;
     height:auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .fullwidthwrapper{
-    width:100%;
+    width:90%;
     height:auto;
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
     grid-template-areas:". . . .";
+    gap:20px;
 }
 
 .fullwidthitem{
     width:100%;
     height:auto;
     min-height: 200px;
-    background-color: blue;
-    border:2px solid red;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -34,6 +34,13 @@
     left:0;
 }
 
-.fullwidthitem h1{
-    
+.fullwidthitem a{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
 }
