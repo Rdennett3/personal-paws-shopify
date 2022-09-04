@@ -11,6 +11,12 @@
       "settings": {
       }
     },
+    "fullwidthcolumn": {
+      "type": "fullwidthcollection",
+      "settings": {
+        
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -44,17 +50,6 @@
         "custom_text_body": "Meet<br>The<br>Team",
         "kait_description_box": "<p>Kait has 7 years experience in the canine industry; from volunteering to helping local shelters, kennel work, reading canine body language to managing facilities and employees to handling canine behaviors, basic obedience, competitive obedience, and extensive pet care. All of this has lead her to where she is today!<br\/>    <\/p>",
         "team_description_box": "<p>The Personal Paws Faculty members are a group of highly trusted and trained canine handlers. Each handler goes through a series of shadowing, mentoring, and is required to finish our educational programs provided before earning a position in our pack.<\/p>"
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "settings": {
-        "testimonial_header": "what others are saying",
-        "testimonial_one": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "testimonial_two": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "testimonial_three": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "testimonial_four": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "testimonial_five": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
       }
     },
     "multicolumn": {
@@ -114,9 +109,8 @@
   "order": [
     "homepageheader",
     "homepageintro",
-    "featured_collection",
+    "fullwidthcollection",
     "homepageabout",
-    "testimonials",
     "multicolumn"
   ]
 }
