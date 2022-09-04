@@ -24,6 +24,7 @@
     }
     .fullwidthitem h1{
         font-size:calc(var(--font-heading-scale) * 3rem);
+        text-align: center;
     }
 }
 
