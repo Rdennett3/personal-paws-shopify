@@ -28,6 +28,14 @@
     }
 }
 
+.fullwidthtitle{
+    width:80%;
+    height:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fullwidthitem{
     width:100%;
     height:auto;
