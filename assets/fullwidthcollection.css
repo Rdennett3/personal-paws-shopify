@@ -17,6 +17,16 @@
     gap:20px;
 }
 
+@media screen and (max-width:900px){
+    .fullwidthwrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas:". .";
+    }
+    .fullwidthitem h1{
+        font-size:calc(var(--font-heading-scale) * 3rem);
+    }
+}
+
 .fullwidthitem{
     width:100%;
     height:auto;
@@ -32,6 +42,10 @@
     height:auto;
     top:0;
     left:0;
+}
+
+.fullwidthitem h1{
+    color:#132832;
 }
 
 .fullwidthitem a{

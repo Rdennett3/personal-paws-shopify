@@ -15,25 +15,25 @@
     <div class="fullwidthwrapper">
       <div class="fullwidthitem">
         <a href="">
-          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/treats.png?v=1662307513" alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/treats.png?v=1662307513" width="500" height="500" alt="" loading="lazy">
           <h1>Treats</h1>
         </a>
       </div>
       <div class="fullwidthitem">
         <a href="#">
-          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/collar.png?v=1662306808" alt="">      
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/collar.png?v=1662306808" width="500" height="500" alt="" loading="lazy">      
           <h1>Collars</h1>
         </a>
       </div>
       <div class="fullwidthitem">
         <a href="">
-          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/bandana.png?v=1662307997" alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/bandana.png?v=1662307997" width="500" height="500" alt="" loading="lazy">
           <h1>Accessories</h1>
         </a>
       </div>
       <div class="fullwidthitem">
         <a href="">
-          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/food.png?v=1662308330" alt="">
+          <img src="https://cdn.shopify.com/s/files/1/0617/7364/3956/files/food.png?v=1662308330" width="500" height="500" alt="" loading="lazy">
           <h1>Food</h1>
         </a>
       </div>
@@ -46,8 +46,8 @@
         let tl = gsap.timeline({
           scrollTrigger:{
             trigger:".fullwidthcontainer",
-            scrub:1,
-            markers:true,
+            {% comment %} scrub:1,
+            markers:true, {% endcomment %}
             start:"top 70%",
             end:"bottom 30%",
           }
@@ -59,8 +59,8 @@
         let tl = gsap.timeline({
           scrollTrigger:{
             trigger:".fullwidthcontainer",
-            scrub:1,
-            // markers:true,
+            {% comment %} scrub:1, {% endcomment %}
+            {% comment %} markers:true, {% endcomment %}
             start:"top 90%",
             end:"bottom 60%",
           }
