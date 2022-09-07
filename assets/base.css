@@ -167,6 +167,10 @@
   --shadow-visible: var(--card-shadow-visible);
 }
 
+.card .card__inner .card__media {
+  z-index: 1 !important;
+}
+
 .contains-content-container,
 .content-container {
   --border-radius: var(--text-boxes-radius);
