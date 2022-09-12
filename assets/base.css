@@ -244,7 +244,7 @@ html.no-js .no-js-hidden {
 
 @media screen and (min-width: 990px) {
   .page-width--narrow {
-    max-width: 72.6rem;
+    max-width: 85rem;
     padding: 0;
   }
 
@@ -2355,8 +2355,8 @@ input[type='checkbox'] {
 }
 
 .header__icon .icon {
-  height: 2rem;
-  width: 2rem;
+  height: 3rem;
+  width: 3rem;
   fill: none;
   vertical-align: middle;
 }
@@ -2935,3 +2935,10 @@ details-disclosure > details {
   font-family: 'Raleway',sans-serif;
   font-weight: 800;
 }
+
+.grid-link__image--loading { -webkit-animation: none; animation: none;}
+.grid-link:hover .grid-link__image, .grid-link:active .grid-link__image, .grid-link--focus:hover .grid-link__image, .grid-link--focus:active .grid-link__image {
+    opacity: 1;
+}
+
+.card .card__inner .card__media {z-index: 1 !important;}

@@ -593,6 +593,11 @@
                       value="{{ product.selected_or_first_available_variant.id }}"
                       disabled
                     >
+                    {% for tag in product.tags %} 
+                      {% if tag contains 'newMessage:' %} 
+                        {{ tag | remove:'newMessage:'}} 
+                      {% endif %} 
+                    {% endfor %}     
                     <div class="product-form__buttons">
                       <button
                         type="submit"
