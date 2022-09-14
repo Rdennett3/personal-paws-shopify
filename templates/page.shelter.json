@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16631166150d805717": {
+      "type": "image-with-text",
+      "blocks": {
+        "16631166149738d45f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hearts & Bones",
+            "heading_size": "h0"
+          }
+        },
+        "16631166149738d45f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hearts & Bones Rescue is a 501(c)(3) non-profit dog rescue organization based in Dallas, TX and New York City. We're a close network of fosters and volunteers who collaborate to rescue shelter dogs and find them loving forever homes. As a foster-based rescue, we focus on providing all of our dogs with secure and caring environments while they wait for their forever families. Hearts & Bones is dedicated to building a coalition of individuals and organizations across the country to save dogs in the areas where shelters are under the greatest stress, and transport our pups to forever families ready to give them <br\/>the lives they deserve.<br\/>                <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16631166149738d45f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit Site",
+            "button_link": "https:\/\/www.heartsandbonesrescue.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "16631166149738d45f-0",
+        "16631166149738d45f-1",
+        "16631166149738d45f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/hb-small.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663116643ac546cf6": {
+      "type": "image-with-text",
+      "blocks": {
+        "16631166432cbab00c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Muddy Paws",
+            "heading_size": "h0"
+          }
+        },
+        "16631166432cbab00c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The mission of Muddy Paws Rescue is to build and support a thriving community of dog-loving humans dedicated to ending unnecessary euthanasia of companion dogs. We do this through shared learning and education, direct lifesaving, and continuous innovation.<br\/>                <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16631166432cbab00c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit Site",
+            "button_link": "https:\/\/www.muddypawsrescue.org\/"
+          }
+        }
+      },
+      "block_order": [
+        "16631166432cbab00c-0",
+        "16631166432cbab00c-1",
+        "16631166432cbab00c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Muddy-Paws-Rescue-Horizontal-Logo-With-Tagline-Two-Color-Primary-RGB-1000px_72ppi.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16631166150d805717",
+    "1663116643ac546cf6"
+  ]
+}
