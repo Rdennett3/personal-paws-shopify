@@ -1,13 +1,16 @@
 {
   "sections": {
-    "kait":{
-      "type": "kait"
-    },
     "main": {
       "type": "main-page",
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "kait": {
+      "type": "kait",
+      "settings": {
+        "kait_bio_text": "<p>Kait has 7 years of experience in the canine industry; from volunteering to helping in local shelters, kennel work, reading canine body language to managing facilities and employees to handling canine behaviors, basic obedience, competitive obedience, and extensive pet care. All of this has led her to where she is today!<\/p>"
       }
     }
   },
