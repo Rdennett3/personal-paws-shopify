@@ -2974,8 +2974,8 @@ KAIT SECTION STYLES
   width:100%;
   height:auto;
   display:flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .kaitlayoutitem img{
@@ -2998,7 +2998,13 @@ KAIT SECTION STYLES
 }
 .kaitlayoutitem:nth-of-type(3){
   grid-area:kli3;
+  background:#F05D5F;
+}
+
+.kaitbiocontainer{
+  width:80%;
+  height:auto;
+  display:flex;
   align-items: center;
   justify-content: center;
-  background:#F05D5F;
 }
