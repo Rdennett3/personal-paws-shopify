@@ -3,10 +3,10 @@
 <div class="kaitlayoutcontainer">
     <div class="kaitlayoutinner">
         <div class="kaitlayoutitem">
-        
+            <img src="https://cdn.shopify.com/s/files/1/0627/0366/5345/files/kait-1.png?v=1663122682" loading="lazy" alt="">
         </div>
         <div class="kaitlayoutitem">
-        
+            <p> {{ section.settings.kait_bio_text }} </p>
         </div>
         <div class="kaitlayoutitem">
         
@@ -15,8 +15,16 @@
 </div>
 
 {% schema %}
-{
-    "name": "kait section",
-    "tag": "section"
+  {
+    "name": "kait",
+    "tag": "section",
+    "settings": [
+      {
+        "id": "kait_bio_text",
+            "type": "richtext",
+            "label": "Kaits Bio",
+            "default": "<p> School of Personal Paws</p>"
+      }
+    ]
   }
-{% endschema %}
+  {% endschema %}

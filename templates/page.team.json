@@ -1,5 +1,8 @@
 {
   "sections": {
+    "kait":{
+      "type": "kait"
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +12,7 @@
     }
   },
   "order": [
-    "main"
+    "main",
+    "kait"
   ]
 }
