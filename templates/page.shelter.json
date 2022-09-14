@@ -13,21 +13,21 @@
         "16631166149738d45f-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Hearts & Bones",
             "heading_size": "h1"
           }
         },
         "16631166149738d45f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Hearts & Bones Rescue is a 501(c)(3) non-profit dog rescue <br\/>organization based in Dallas, TX and New York City. We're a close <br\/>network of fosters and volunteers who collaborate to rescue shelter dogs<br\/> and find them loving forever homes. As a foster-based rescue, we focus <br\/>on providing all of our dogs with secure and caring environments while <br\/>they wait for their forever families. Hearts & Bones is dedicated to<br\/> building a coalition of individuals and organizations across the <br\/>country to save dogs in the areas where shelters are under the greatest <br\/>stress, and transport our pups to forever families ready to give them <br\/>the lives they deserve.<br\/>                <\/p>",
             "text_style": "body"
           }
         },
         "16631166149738d45f-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Visit Site",
             "button_link": ""
           }
         }
