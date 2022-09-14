@@ -14,7 +14,7 @@
           "type": "heading",
           "settings": {
             "heading": "Hearts & Bones",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "16631166149738d45f-1": {
@@ -57,14 +57,14 @@
         "16631166432cbab00c-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Muddy Paws",
+            "heading_size": "h0"
           }
         },
         "16631166432cbab00c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>The mission of Muddy Paws Rescue is to build and support a thriving community of dog-loving humans dedicated to ending unnecessary euthanasia of companion dogs. We do this through shared learning and education, direct lifesaving, and continuous innovation.<br\/>                <\/p>",
             "text_style": "body"
           }
         },
@@ -82,6 +82,7 @@
         "16631166432cbab00c-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Muddy-Paws-Rescue-Horizontal-Logo-With-Tagline-Two-Color-Primary-RGB-1000px_72ppi.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
