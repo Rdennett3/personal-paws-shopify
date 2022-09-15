@@ -3017,3 +3017,10 @@ KAIT SECTION STYLES
   justify-content:center;
 }
 
+.teamcontainer{
+  width:80%;
+  height:auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:auto;
+}
