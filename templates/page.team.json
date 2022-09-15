@@ -14,8 +14,14 @@
       }
     }
   },
+
+  "team": {
+    "type": "team"
+  },
+  
   "order": [
     "main",
+    "team",
     "kait"
   ]
 }
