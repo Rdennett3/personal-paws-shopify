@@ -3121,7 +3121,6 @@ SHELTER SECTION STYLES
   grid-template-rows:auto;
   grid-template-areas:". .";
   margin-bottom:10px;
-  padding:5% 0;
 }
 
 .sheltersectionitem{
@@ -3129,6 +3128,7 @@ SHELTER SECTION STYLES
   height:auto;
   display:flex;
   border:1px solid red;
+  padding:2.5% 0;
 }
 
 .sheltersectionitem img{
