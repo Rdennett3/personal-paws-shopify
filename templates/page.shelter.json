@@ -10,7 +10,8 @@
     "shelters": {
       "type": "shelters",
       "settings": {
-        "shelter-img": "shopify:\/\/shop_images\/hb-xs2.png"
+        "shelter-img": "shopify:\/\/shop_images\/hb-xs2.png",
+        "shelter-img-2": "shopify:\/\/shop_images\/Muddy-Paws-Rescue-Horizontal-Logo-With-Tagline-Two-Color-Primary-RGB-1000px_72ppi.png"
       }
     }
   },
