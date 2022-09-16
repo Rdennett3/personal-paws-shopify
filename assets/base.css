@@ -3039,6 +3039,11 @@ TEAM LAYOUT SECTION
   min-height:125px;
 }
 
+.teamiteminner{
+  width:100%;
+  height:auto;
+}
+
 .teamiteminner:nth-of-type(2){
   background:#132832;
 }
