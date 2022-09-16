@@ -3038,3 +3038,8 @@ TEAM LAYOUT SECTION
   justify-content:center;
   min-height:125px;
 }
+
+.teamitem img{
+  width:100%;
+  height:auto;
+}
