@@ -2951,6 +2951,14 @@ details-disclosure > details {
 KAIT SECTION STYLES
 ******************* */
 
+.teamdesc{
+  width:100%;
+  height:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
 .kaitlayoutcontainer{
   width:100%;
   height:auto;
