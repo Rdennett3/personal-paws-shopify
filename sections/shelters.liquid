@@ -4,7 +4,7 @@
   <div class="sheltercontainer">
     <div class="sheltersection">
       <div class="sheltersectionitem">
-        
+        <img src="{{section.settings.shelter-img |  img_url: 'master'}}" alt="">
       </div>
       <div class="sheltersectionitem">
         
@@ -12,7 +12,7 @@
     </div>
     <div class="sheltersection">
       <div class="sheltersectionitem">
-        
+        <img src="{{section.settings.shelter-img-2 |  img_url: 'master'}}" alt="">
       </div>
       <div class="sheltersectionitem">
         
@@ -27,10 +27,14 @@
     "tag": "section",
     "settings": [
       {
-        "id": "kait_bio_text",
-            "type": "richtext",
-            "label": "Kaits Bio",
-            "default": "<p> School of Personal Paws</p>"
+        "type": "image_picker",
+        "id": "shelter-img",
+        "label": "shelter logo 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "shelter-img-2",
+        "label": "shelter logo 2"
       }
     ]
   }
