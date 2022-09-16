@@ -3145,6 +3145,8 @@ SHELTER SECTION STYLES
 
 .sheltersectionitem:nth-of-type(2){
   grid-area:ssi2;
+  align-items:flex-start;
+  justify-content:center;
 }
 
 
