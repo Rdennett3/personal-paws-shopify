@@ -3122,6 +3122,24 @@ SHELTER SECTION STYLES
   grid-template-areas:". .";
 }
 
+.sheltersectionitem{
+  width:100%;
+  height:auto;
+  display:flex;
+}
+
+.sheltersectionitem:nth-of-type(1){
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+
 
 
 
