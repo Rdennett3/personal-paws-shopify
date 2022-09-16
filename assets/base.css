@@ -3117,9 +3117,9 @@ SHELTER SECTION STYLES
   width:100%;
   height:auto;
   display:grid;
-  grid-template-columns:repeat(2,1fr);
+  grid-template-columns:repeat(3,1fr);
   grid-template-rows:auto;
-  grid-template-areas:". .";
+  grid-template-areas:"ssi1 ssi2 ssi2";
   margin-bottom:10px;
 }
 
@@ -3127,6 +3127,7 @@ SHELTER SECTION STYLES
   width:100%;
   height:auto;
   display:flex;
+  flex-direction:column;
   border:1px solid red;
   padding:2.5% 0;
 }
@@ -3139,6 +3140,11 @@ SHELTER SECTION STYLES
 .sheltersectionitem:nth-of-type(1){
   align-items:center;
   justify-content:center;
+  grid-area:ssi1;
+}
+
+.sheltersectionitem:nth-of-type(2){
+  grid-area:ssi2;
 }
 
 
