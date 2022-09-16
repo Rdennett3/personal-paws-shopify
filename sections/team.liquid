@@ -7,7 +7,7 @@
         <img src="{{section.settings.why-img |  img_url: 'master'}}" alt="">
       </div>
       <div class="teamiteminner">
-        <p>Olivia - Trainer</p>
+        <p> {{ section.settings.employee-one-name }} </p>
       </div>
     </div>
     <div class="teamitem">
@@ -15,7 +15,7 @@
         <img src="{{section.settings.why-img-2 |  img_url: 'master'}}" alt="">
       </div>
       <div class="teamiteminner">
-        <p>Olivia - Trainer</p>
+        <p> {{ section.settings.employee-two-name }} </p>
       </div>
     </div>
     <div class="teamitem">
@@ -23,7 +23,7 @@
         <img src="{{section.settings.why-img-3 |  img_url: 'master'}}" alt="">
       </div>
       <div class="teamiteminner">
-        <p>Olivia - Trainer</p>
+        <p> {{ section.settings.employee-three-name }} </p>
       </div>
     </div>
   </div>
@@ -41,17 +41,35 @@
 
             },
       {
+        "id": "employee_one_name",
+            "type": "richtext",
+            "label": "employee one name",
+            "default": "<p>employee one here</p>"
+      },
+      {
                 "type": "image_picker",
                 "id": "why-im2",
                 "label": "employee image 2"
 
             },
       {
+        "id": "employee_two_name",
+            "type": "richtext",
+            "label": "employee two name",
+            "default": "<p>employee two here</p>"
+      },
+      {
                 "type": "image_picker",
                 "id": "why-img-3",
                 "label": "employee image 3"
 
-            }
+            },
+      {
+        "id": "employee_three_name",
+            "type": "richtext",
+            "label": "employee three name",
+            "default": "<p>employee three here</p>"
+      }
     ]
   }
   {% endschema %}
