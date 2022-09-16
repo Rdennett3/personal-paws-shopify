@@ -3139,14 +3139,14 @@ SHELTER SECTION STYLES
 
 .sheltersectionitem:nth-of-type(1){
   align-items:flex-start;
-  justify-content:center;
+  justify-content:flex-start;
   grid-area:ssi1;
 }
 
 .sheltersectionitem:nth-of-type(2){
   grid-area:ssi2;
   align-items:flex-start;
-  justify-content:center;
+  justify-content:flex-start;
 }
 
 
