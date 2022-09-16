@@ -3036,7 +3036,6 @@ TEAM LAYOUT SECTION
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  min-height:125px;
 }
 
 .teamiteminner{
