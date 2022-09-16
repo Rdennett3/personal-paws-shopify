@@ -3093,3 +3093,28 @@ TEAM LAYOUT SECTION
   width:100%;
   height:auto;
 }
+
+/* **********************
+SHELTER SECTION STYLES
+********************** */
+
+.shelterouter{
+  width:100%;
+  height:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.sheltercontainer{
+  width:80%;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+}
+
+
+
+
+
+
