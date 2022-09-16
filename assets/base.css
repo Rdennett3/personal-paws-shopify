@@ -2970,6 +2970,13 @@ KAIT SECTION STYLES
   min-height:50vh;
 }
 
+@media screen and (max-width: 900px){
+  .kaitlayoutinner{
+    grid-template-columns:1fr;
+    grid-template-areas: "kli1" "kli2" "kli3";
+  }
+}
+
 .kaitlayoutitem{
   width:100%;
   height:auto;
