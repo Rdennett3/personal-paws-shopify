@@ -7,6 +7,28 @@
         "padding_bottom": 28
       }
     },
+    "1663293307ca8b5df1": {
+      "type": "rich-text",
+      "blocks": {
+        "1663293307f6e01929-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Personal Paws Faculty members are a group of highly trusted and <br\/>trained K9 Handlers.Each handler goes through a series of <br\/>shadowing,mentoring and is required to finish our educational programs provided before earning a position in our pack. At The School Of Personal Paws our mission to help each student reach their full <br\/>potential!! The k9 Handlers work on Basic Obedience, Intermediate <br\/>Obedience, Canine manners and proper socialization ( on and off leash) You will not only feel comfortable leaving your furbabies with our schools faculty, but you will feel confident knowing they will be <br\/>getting the mental and physical stimulation they absolutely need <br\/>throughout their days!!<br\/>    <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663293307f6e01929-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "kait": {
       "type": "kait",
       "settings": {
@@ -27,6 +49,7 @@
   },
   "order": [
     "main",
+    "1663293307ca8b5df1",
     "kait",
     "team"
   ]
