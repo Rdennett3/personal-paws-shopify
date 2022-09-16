@@ -10,6 +10,7 @@
     "shelters": {
       "type": "shelters",
       "settings": {
+        "shelter-img": "shopify:\/\/shop_images\/hb-xs2.png"
       }
     }
   },
