@@ -3126,6 +3126,7 @@ SHELTER SECTION STYLES
   width:100%;
   height:auto;
   display:flex;
+  border:1px solid red;
 }
 
 .sheltersectionitem:nth-of-type(1){
