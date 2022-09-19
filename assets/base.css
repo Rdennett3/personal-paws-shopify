@@ -3128,6 +3128,13 @@ SHELTER SECTION STYLES
   margin-bottom:10px;
 }
 
+@media screen and (max-width:900px){
+  .sheltersection{
+    grid-template-columns:1fr;
+    grid-template-areas: "ssi1" "ssi2";
+  }
+}
+
 .sheltersectionitem{
   width:100%;
   height:auto;
