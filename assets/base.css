@@ -3135,6 +3135,7 @@ SHELTER SECTION STYLES
   }
   .sheltersectionitem:nth-of-type(1){
     align-items:center;
+    text-align:center;
   }
 }
 
