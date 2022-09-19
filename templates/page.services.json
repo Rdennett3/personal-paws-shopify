@@ -40,7 +40,7 @@
         "heading_alignment": "left",
         "layout": "row",
         "color_scheme": "background-1",
-        "container_color_scheme": "accent-2",
+        "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
