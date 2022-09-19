@@ -6,10 +6,15 @@
   margin-bottom: 3rem;
 }
 
+@media screen and (max-width:900px){
+  .main-page-title{
+    text-align:center;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .main-page-title {
     margin-bottom: 4rem;
-    text-align:center;
   }
 }
 
