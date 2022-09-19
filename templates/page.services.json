@@ -37,7 +37,7 @@
         "caption": "",
         "heading": "Collapsible content",
         "heading_size": "h1",
-        "heading_alignment": "left",
+        "heading_alignment": "right",
         "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
