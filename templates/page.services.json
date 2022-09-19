@@ -54,9 +54,9 @@
         "1663630489d7fb2176-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "More Info",
+            "icon": "paw_print",
+            "row_content": "<p>At Personal Paws, we aim to give you the peace of mind you need <br\/>while you’re away. Here, your pup is in the best hands. We treat each <br\/>dog in our care as if they were our own, and that is what we kept in <br\/>mind when designing our condos & packages.<br\/>  <\/p><p>Our awesome facility offers many new amenities such as multiple <br\/>socialization areas, all levels of distraction for proofing your pups <br\/>skills, a stream & pond to adventure through, 4 acres of trails to <br\/>hike & much more!<br\/>  <\/p>",
             "page": ""
           }
         },
@@ -99,7 +99,7 @@
         "heading": "Boarding Services",
         "heading_size": "h1",
         "heading_alignment": "right",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
