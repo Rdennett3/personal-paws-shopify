@@ -63,9 +63,9 @@
         "1663630489d7fb2176-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Basic Boarding Package - $45 per day",
+            "icon": "paw_print",
+            "row_content": "<p>This package includes:<\/p><p>Endless Potty Breaks<\/p><p>1 Walk Per Day<\/p><p>Bedtime Biscuit<\/p><p>*** If you have 2 pups & they can share a kennel, it’s only $20 per second dog!<\/p>",
             "page": ""
           }
         },
