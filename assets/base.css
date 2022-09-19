@@ -3133,6 +3133,9 @@ SHELTER SECTION STYLES
     grid-template-columns:1fr;
     grid-template-areas: "ssi1" "ssi2";
   }
+  .sheltersectionitem:nth-of-type(1){
+    align-items:center;
+  }
 }
 
 .sheltersectionitem{
