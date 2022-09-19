@@ -6,9 +6,28 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "kait": {
+      "type": "kait",
+      "settings": {
+        "kait_bio_text": "<p>Kait has 7 years of experience in the canine industry; from volunteering to helping in local shelters, kennel work, reading canine body language to managing facilities and employees to handling canine behaviors, basic obedience, competitive obedience, and extensive pet care. All of this has led her to where she is today!<\/p>"
+      }
+    },
+    "team": {
+      "type": "team",
+      "settings": {
+        "why-img": "shopify:\/\/shop_images\/olivia.png",
+        "employee-one-name": "<p>Olivia - Trainer<\/p>",
+        "why-img-2": "shopify:\/\/shop_images\/foster.png",
+        "employee-two-name": "<p>Foster - K9 Handler<\/p>",
+        "why-img-3": "shopify:\/\/shop_images\/tyler210.jpg",
+        "employee-three-name": "<p>Tyler - K9 Trainer<\/p>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "kait",
+    "team"
   ]
 }
