@@ -63,7 +63,7 @@
         "heading": "Daytime Services",
         "heading_size": "h1",
         "heading_alignment": "right",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
