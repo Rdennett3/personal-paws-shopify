@@ -1,5 +1,10 @@
 {
   "sections": {
+    "page_title": {
+      "type": "page_title",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -19,6 +24,7 @@
     }
   },
   "order": [
+    "page_title",
     "main",
     "form"
   ]
