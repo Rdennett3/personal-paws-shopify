@@ -1,5 +1,7 @@
-<div>
-  <h1> {{ page_title }} </h1>
+<div class="titlecontainer">
+  <div class="titleinner">
+    <h1> {{ page_title }} </h1>
+  </div>
 </div>
 
 {% schema %}
@@ -12,6 +14,20 @@
 {% endschema %}
 
 {% stylesheet %}
+  .titlecontainer{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .titleinner{
+    width:80%;
+    height:auto;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+  }
 {% endstylesheet %}
 
 {% javascript %}
