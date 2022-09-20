@@ -1,5 +1,6 @@
 <div class="plaintextcontainer">
   <div class="plaintextinner">
+    <img src="{{section.settings.petexec-img |  img_url: 'master'}}" alt="">
     <p> {{ section.settings.plaintext }} </p>
   </div>
 </div>
@@ -8,6 +9,11 @@
     "name": "plain_text",
     "tag": "section",
     "settings": [
+      {
+        "type": "image_picker",
+        "id": "petexec-img",
+        "label": "petexec logo"
+      },
       {
         "id": "plaintext",
             "type": "richtext",
