@@ -5,6 +5,11 @@
       "settings": {
       }
     },
+    "plain_text": {
+      "type": "plain_text",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -15,6 +20,7 @@
   },
   "order": [
     "page_title",
+    "plain_text",
     "main"
   ]
 }
