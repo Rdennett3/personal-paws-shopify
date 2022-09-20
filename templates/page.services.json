@@ -15,10 +15,22 @@
           "settings": {
             "text": "<p>Please don't forget to sign up for PetExec! This system will allow for  us to have all of your pups info right at our fingertips regardless of which location we are at!<br\/><\/p>"
           }
+        },
+        "c208e12e-8def-446b-927c-655424e73724": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up Today",
+            "button_link": "https:\/\/secure.petexec.net\/newOwner.php?x=VaAcZ4uEVwY=",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
-        "16636324123ae1d1b2-1"
+        "16636324123ae1d1b2-1",
+        "c208e12e-8def-446b-927c-655424e73724"
       ],
       "settings": {
         "desktop_content_position": "left",
