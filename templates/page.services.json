@@ -1,14 +1,20 @@
 {
   "sections": {
+    "page_title": {
+      "type": "page_title",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
   "order": [
+    "page_title",
     "main"
   ]
 }
