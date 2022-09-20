@@ -1,10 +1,5 @@
 {
   "sections": {
-    "plain-text": {
-      "type": "plain-text",
-      "settings": {
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -14,7 +9,6 @@
     }
   },
   "order": [
-    "plain-text",
     "main"
   ]
 }
