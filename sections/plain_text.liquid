@@ -5,7 +5,16 @@
 </div>
 {% schema %}
   {
-    "name": "plain_text"
+    "name": "plain_text",
+    "tag": "section",
+    "settings": [
+      {
+        "id": "plaintext",
+            "type": "richtext",
+            "label": "Plain text",
+            "default": "<p>fill in text here</p>"
+      }
+    ]
   }
 {% endschema %}
 
