@@ -8,6 +8,8 @@
     "plain_text": {
       "type": "plain_text",
       "settings": {
+        "petexec-img": "shopify:\/\/shop_images\/petexeccolor-crop.png",
+        "plaintext": "<p>fill in text here<\/p>"
       }
     },
     "main": {
