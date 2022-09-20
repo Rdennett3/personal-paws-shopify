@@ -8,15 +8,11 @@
     "plain_text": {
       "type": "plain_text",
       "settings": {
-        "petexec-img": "shopify:\/\/shop_images\/petexeccolor-crop.png",
-        "plaintext": "<p>Please don't forget to sign up for PetExec! This system will allow for us to have all of your pups info right at our fingertips regardless of <br\/>which location we are at!<br\/>      <\/p>"
       }
     },
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     }
   },
