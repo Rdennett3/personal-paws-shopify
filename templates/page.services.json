@@ -5,13 +5,6 @@
       "settings": {
       }
     },
-    "plain_text": {
-      "type": "plain_text",
-      "settings": {
-        "petexec-img": "shopify:\/\/shop_images\/petexeccolor-crop.png",
-        "plaintext": "<p>Please don't forget to sign up for PetExec! This system will allow for us to have all of your pups info right at our fingertips regardless of which location we are at!<br\/>      <\/p>"
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -79,12 +72,19 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "plain_text": {
+      "type": "plain_text",
+      "settings": {
+        "petexec-img": "shopify:\/\/shop_images\/petexeccolor-crop.png",
+        "plaintext": "<p>Please don't forget to sign up for PetExec! This system will allow for us to have all of your pups info right at our fingertips regardless of which location we are at!<br\/>      <\/p>"
+      }
     }
   },
   "order": [
     "page_title",
-    "plain_text",
     "main",
-    "166363979610ccc49a"
+    "166363979610ccc49a",
+    "plain_text"
   ]
 }
