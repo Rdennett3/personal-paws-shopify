@@ -5,18 +5,54 @@
 
 <div class="swiper">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"></div>
-    <div class="swiper-slide"></div>
-    <div class="swiper-slide"></div>
-    <div class="swiper-slide"></div>
-    <div class="swiper-slide"></div>
+    <div class="swiper-slide">
+      <p> {{ section.settings.testimonialone }} </p>
+    </div>
+    <div class="swiper-slide">
+      <p> {{ section.settings.testimonialtwo }} </p>
+    </div>
+    <div class="swiper-slide">
+      <p> {{ section.settings.testimonialthree }} </p>
+    </div>
+    <div class="swiper-slide">
+      <p> {{ section.settings.testimonialfour }} </p>
+    </div>
+    <div class="swiper-slide">
+      <p> {{ section.settings.testimonialfive }} </p>
+    </div>
   </div>
   <div class="swiper-pagination"></div>
 </div>
 {% schema %}
   {
     "name": "testimonials",
-    "settings": []
+    "settings": [
+      {
+        "id": "testimonialone",
+            "type": "richtext",
+            "label": "Testiomial One"
+      },
+      {
+        "id": "testimonialtwo",
+            "type": "richtext",
+            "label": "Testiomial Two"
+      },
+      {
+        "id": "testimonialthree",
+            "type": "richtext",
+            "label": "Testiomial Three"
+      },
+      {
+        "id": "testimonialfour",
+            "type": "richtext",
+            "label": "Testiomial Four"
+      },
+      {
+        "id": "testimonialfive",
+            "type": "richtext",
+            "label": "Testiomial Five"
+      }
+    ]
   }
 {% endschema %}
 
