@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="{{ 'plain-text.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <div class="plain-text-container">
-  
+  <p> {{ section.settings.main-text }} </p>
 </div>
 
 {% schema %}
@@ -10,10 +10,10 @@
     "tag": "section",
     "settings": [
       {
-        "id": "kait_bio_text",
+        "id": "main-text",
             "type": "richtext",
-            "label": "Kaits Bio",
-            "default": "<p> School of Personal Paws</p>"
+            "label": "Text goes here",
+            "default": "<p>Lorem Ipsum dolor sit amet</p>"
       }
     ]
   }
