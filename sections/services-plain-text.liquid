@@ -1,12 +1,20 @@
+<link rel="stylesheet" href="{{ 'base.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<div class="plain-text-container">
+  
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "plain-text",
+    "tag": "section",
+    "settings": [
+      {
+        "id": "kait_bio_text",
+            "type": "richtext",
+            "label": "Kaits Bio",
+            "default": "<p> School of Personal Paws</p>"
+      }
+    ]
   }
-{% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
+  {% endschema %}
