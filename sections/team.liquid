@@ -53,6 +53,37 @@
   </div>
 </div>
 
+<script>
+  ScrollTrigger.matchMedia({
+      "(min-width:900px)":function() {
+        let tl = gsap.timeline({
+          scrollTrigger:{
+            trigger:".teamouter",
+            scrub:1,
+            markers:true,
+            start:"top 70%",
+            end:"bottom 30%",
+          }
+        });
+        tl.from(".teamitem", {y:"50%", autoAlpha:0, scale:.95, stagger:.15,})
+        .to(".teamitem", {y:0, stagger:.15});
+      },
+      "(max-width:899px)":function(){
+        let tl = gsap.timeline({
+          scrollTrigger:{
+            trigger:".homepageintro",
+            scrub:1,
+            // markers:true,
+            start:"top 90%",
+            end:"bottom 60%",
+          }
+        });
+        tl.from(".introitem", {autoAlpha:0, y:"50%"})
+        .to(".introitem", {autoAlpha:1, y:"-10%"});
+      }
+    })
+</script>
+
 {% schema %}
   {
     "name": "team",
