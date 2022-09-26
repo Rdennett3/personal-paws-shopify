@@ -3088,11 +3088,13 @@ TEAM LAYOUT SECTION
 
 .teamiteminner:nth-of-type(2){
   background:#132832;
+  min-height:85px;
 }
 
 .teamiteminner:nth-of-type(2) p{
   color:#fff;
   font-size:1.25em;
+  line-height:1em;
 }
 
 .teamitem img{
