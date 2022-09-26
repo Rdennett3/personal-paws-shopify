@@ -3083,6 +3083,7 @@ TEAM LAYOUT SECTION
   display:flex;
   align-items:center;
   justify-content:center;
+  min-height:115px;
 }
 
 .teamiteminner:nth-of-type(2){
