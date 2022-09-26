@@ -23,8 +23,11 @@
       "settings": {
         "why-img": "shopify:\/\/shop_images\/olivia.png",
         "employee-one-name": "<p>Olivia - Trainer<\/p>",
-        "employee-two-name": "<p>Chelsea: office manager & personal assistant<\/p>",
-        "employee-three-name": "<p>emma: k-9 handler & marketing manager<\/p>"
+        "employee-two-name": "<p>Chelsea: Office Manager & Personal Assistant<\/p>",
+        "employee-three-name": "<p>Emma: k-9 Handler & Marketing Manager<\/p>",
+        "employee-four-name": "<p>Ann: Kennel Attendant<\/p>",
+        "employee-five-name": "<p>Danielle: k-9 Handler<\/p>",
+        "employee-six-name": "<p>Kelsey: k-9 Handler<\/p>"
       }
     }
   },
